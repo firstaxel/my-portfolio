@@ -2,13 +2,13 @@ import { Metadata } from 'next';
 
 export const siteMetadata: Metadata = {
   title: {
-    default: 'Aitezaz Sikandar - Full Stack Developer',
-    template: '%s | Aitezaz Sikandar',
+    default: 'Olasubomi Olubisi - Full Stack Developer',
+    template: '%s | Olasubomi Olubisi',
   },
   description:
     'Web developer specializing in React, Next.js, and MERN Stack development. Building fast, scalable, and user-focused web applications.',
   keywords: [
-    'Aitezaz Sikandar',
+    'Olasubomi Olubisi',
     'Web Developer',
     'Frontend Developer',
     'Full Stack Developer',
@@ -20,11 +20,11 @@ export const siteMetadata: Metadata = {
   ],
   authors: [
     {
-      name: 'Aitezaz Sikandar Khan',
+      name: 'Olasubomi Olubisi Khan',
     },
   ],
-  creator: 'Aitezaz Sikandar',
-  metadataBase: new URL('https://aitezaz.xyz'),
+  creator: 'Olasubomi Olubisi',
+  metadataBase: new URL('https://olasubomi.is-a.dev'),
   alternates: {
     canonical: './',
   },
@@ -32,26 +32,26 @@ export const siteMetadata: Metadata = {
     icon: '/logo.webp',
   },
   openGraph: {
-    title: 'Aitezaz Sikandar - Full Stack Developer',
+    title: 'Olasubomi Olubisi - Full Stack Developer',
     description:
-      'Portfolio of Aitezaz Sikandar, Full Stack Developer specializing in MERN stack, Next.js, and polished web experiences.',
-    url: 'https://aitezaz.xyz',
-    siteName: 'Aitezaz Sikandar Portfolio',
+      'Portfolio of Olasubomi Olubisi, Full Stack Developer specializing in MERN stack, Next.js, and polished web experiences.',
+    url: 'https://olasubomi.is-a.dev',
+    siteName: 'Olasubomi Olubisi Portfolio',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Aitezaz Sikandar - Full Stack Developer',
+        alt: 'Olasubomi Olubisi - Full Stack Developer',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aitezaz Sikandar - Full Stack Developer',
+    title: 'Olasubomi Olubisi - Full Stack Developer',
     description:
-      'Portfolio of Aitezaz Sikandar, Full Stack Developer specializing in MERN stack, Next.js, and polished web experiences.',
+      'Portfolio of Olasubomi Olubisi, Full Stack Developer specializing in MERN stack, Next.js, and polished web experiences.',
     images: ['/og-image.png'],
   },
   robots: {

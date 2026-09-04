@@ -45,7 +45,7 @@ const RoleTicker = () => {
 
   const nextIdx = (currentIdx + 1) % roles.length;
   return (
-    <div className="h-6 overflow-hidden mb-8 flex justify-center items-center select-none">
+    <div className="h-6 overflow-hidden mb-6 sm:mb-8 flex justify-center items-center select-none">
       <div
         ref={containerRef}
         className="relative h-6 w-80 text-center font-mono text-sm uppercase tracking-widest text-accent"
@@ -67,7 +67,7 @@ const StampBadge = ({ onClick }: { onClick: () => void }) => (
       type="button"
       onClick={onClick}
       aria-label="Scroll to contact section"
-      className="group relative w-28 h-28 lg:w-36 lg:h-36 rounded-full grid place-items-center select-none"
+      className="group relative w-22 h-22 sm:w-24 sm:h-24 md:w-28 md:h-28 xl:w-36 xl:h-36 rounded-full grid place-items-center select-none"
     >
       <svg viewBox="0 0 200 200" className="stamp-disc absolute inset-0 w-full h-full" aria-hidden="true">
         <defs>
@@ -82,7 +82,7 @@ const StampBadge = ({ onClick }: { onClick: () => void }) => (
           </textPath>
         </text>
       </svg>
-      <span className="grid place-items-center w-12 h-12 lg:w-14 lg:h-14 rounded-full bg-accent text-white transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-45">
+      <span className="grid place-items-center w-10 h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 xl:w-14 xl:h-14 rounded-full bg-accent text-white transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-45">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M7 7l10 10M17 7v10H7" />
         </svg>
@@ -253,7 +253,7 @@ const HomeBanner = () => {
   return (
     <section
       ref={sectionRef}
-      className="min-h-[100dvh] md:min-h-screen px-6 sm:px-8 md:px-12 lg:px-16 pt-28 pb-8 md:pt-20 md:pb-0 bg-cream flex items-center relative overflow-hidden"
+      className="min-h-[100dvh] md:min-h-screen px-4 sm:px-8 md:px-12 lg:px-16 pt-20 sm:pt-24 md:pt-20 pb-8 md:pb-0 bg-cream flex items-center relative overflow-hidden"
     >
       <AmbientGeometry />
 
@@ -273,25 +273,25 @@ const HomeBanner = () => {
           <h1
             ref={nameRef}
             aria-label={site.name}
-            className="select-none leading-none cursor-default mb-6 md:mb-4"
+            className="select-none leading-none cursor-default mb-4 sm:mb-6 md:mb-4"
           >
             <span aria-hidden="true" className="block">
               <span
                 data-hero-line
-                className="block font-display font-black uppercase text-hero tracking-tight"
+                className="block font-display font-black uppercase text-hero tracking-tight whitespace-nowrap"
               >
-                AITEZAZ
+                {site.firstName || 'OLASUBOMI'}
               </span>
               <span
                 data-hero-line
-                className="serif-accent block text-hero-sm leading-[0.85] md:ml-[14vw]"
+                className="serif-accent block text-hero-sm leading-[0.85] md:ml-[5vw] lg:ml-[6vw] whitespace-nowrap"
               >
-                sikandar
+                {site.lastName?.toLowerCase() || 'olubisi'}
               </span>
             </span>
           </h1>
 
-          <div ref={stampRef} className="absolute -top-6 right-0 lg:right-4 xl:right-10 hidden sm:block opacity-0">
+          <div ref={stampRef} className="absolute -top-12 sm:-top-14 md:-top-16 lg:-top-18 xl:-top-16 -right-1 sm:right-0 md:-right-2 lg:right-0 xl:right-4 hidden sm:block opacity-0">
             <StampBadge onClick={() => handleScroll('contact')} />
           </div>
         </div>
@@ -300,7 +300,7 @@ const HomeBanner = () => {
           <div className="max-w-xl w-full text-center mx-auto">
             <p
               ref={paragraphRef}
-              className="text-warm font-sans text-base sm:text-lg md:text-xl leading-relaxed mb-8 md:mb-10 text-center mx-auto"
+              className="text-warm font-sans text-sm sm:text-base md:text-xl leading-relaxed mb-6 sm:mb-8 md:mb-10 text-center mx-auto"
             >
               Open to job opportunities worldwide. Passionate about building polished, intuitive,
               and thoughtful digital experiences that leave a mark.

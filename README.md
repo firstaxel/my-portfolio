@@ -1,8 +1,8 @@
 # Portfolio
 
-The personal portfolio of [**Aitezaz Sikandar**](https://github.com/aitezazdev). Built with Next.js 15, GSAP, and Lenis, it features scroll-driven animations, animated page transitions, smooth scrolling, and a working contact form.
+The personal portfolio of [**Olasubomi Olubisi**](https://github.com/aitezazdev). Built with Next.js 15, GSAP, and Lenis, it features scroll-driven animations, animated page transitions, smooth scrolling, and a working contact form.
 
-**Live Site:** [aitezaz.xyz](https://aitezaz.xyz)
+**Live Site:** [olasubomi.is-a.dev](https://olasubomi.is-a.dev)
 
 ## Features
 

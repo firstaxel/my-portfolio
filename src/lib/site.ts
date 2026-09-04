@@ -1,14 +1,14 @@
 export const site = {
-  name: 'Aitezaz Sikandar',
-  firstName: 'Aitezaz',
-  lastName: 'Sikandar',
+  name: 'Olasubomi Olubisi',
+  firstName: 'Olasubomi',
+  lastName: 'Olubisi',
   handle: 'aitezazdev',
   brand: 'aitezaz.dev',
   email: 'aitezazsikandar@gmail.com',
   location: 'Pakistan',
   timeZone: 'Asia/Karachi',
   timeZoneLabel: 'PKT',
-  url: 'https://aitezaz.xyz',
+  url: 'https://olasubomi.is-a.dev',
   tagline: 'Full Stack Developer crafting fast, expressive web experiences.',
   roles: [
     'Full Stack Developer',

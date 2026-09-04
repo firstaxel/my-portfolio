@@ -13,7 +13,7 @@ const About = () => {
     { t: 'i?' },
   ];
   const descriptionText =
-    "I am a software engineer driven by a passion for building clean, intuitive, and reliable digital experiences.";
+    "I am a software engineer and a product developer driven by a passion for building clean, intuitive, and reliable digital experiences that connect with users.";
   const aboutMeText = `I build web applications that bridge thoughtful frontend interfaces with robust backend systems. To me, software is more than code on a screen; it is about making technology feel effortless and genuinely useful to real people.
 
 My journey began with a simple curiosity for how things work under the hood. Over time, that curiosity evolved into a genuine passion for fluid interface animations, reliable backend architecture, and building user journeys that feel effortless and alive.
