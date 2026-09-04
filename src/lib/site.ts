@@ -2,18 +2,19 @@ export const site = {
   name: 'Olasubomi Olubisi',
   firstName: 'Olasubomi',
   lastName: 'Olubisi',
-  handle: 'aitezazdev',
-  brand: 'aitezaz.dev',
-  email: 'aitezazsikandar@gmail.com',
-  location: 'Pakistan',
-  timeZone: 'Asia/Karachi',
-  timeZoneLabel: 'PKT',
+  handle: 'codeheart',
+  brand: 'olasubomi.is-a.dev',
+  email: 'codeheart@unmoveabletech.com',
+  location: 'South Africa',
+  timeZone: 'Africa/Johannesburg',
+  timeZoneLabel: 'SAST',
   url: 'https://olasubomi.is-a.dev',
-  tagline: 'Full Stack Developer crafting fast, expressive web experiences.',
+  tagline: 'Full Stack Product Developer crafting fast, expressive web experiences.',
   roles: [
-    'Full Stack Developer',
+    'Full Stack Product Developer',
+    'Product Manager',
     'React & Next.js Engineer',
-    'MERN Stack Developer',
+    'Full Stack Developer',
     'Open to Work Worldwide',
   ],
 } as const;
@@ -21,10 +22,10 @@ export const site = {
 export type SocialKey = 'github' | 'linkedin' | 'instagram' | 'source';
 
 export const socials: Record<SocialKey, { label: string; href: string }> = {
-  github: { label: 'GitHub', href: 'https://github.com/aitezazdev' },
-  linkedin: { label: 'Linkedin', href: 'https://linkedin.com/in/aitezaz-sikandar' },
-  instagram: { label: 'Instagram', href: 'https://instagram.com/ur_zaz' },
-  source: { label: 'Source Code', href: 'https://github.com/aitezazdev/Portfolio' },
+  github: { label: 'GitHub', href: 'https://github.com/firstaxel' },
+  linkedin: { label: 'Linkedin', href: 'https://linkedin.com/in/olasubomi-olubisi' },
+  instagram: { label: 'Instagram', href: 'https://instagram.com/iamolasubomiolubisi' },
+  source: { label: 'Source Code', href: 'https://github.com/firstaxel/my-portfolio' },
 };
 
 export const socialList: Array<{ label: string; href: string }> = [
